@@ -1,0 +1,22 @@
+
+<suite name="Crossbrowser Test Suite">
+  <test  name="Chrome Test">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      
+      <class name="testNG_basics.BaseClass"/>
+       <class name="testNG_basics.TestcaseWrittenClass"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="EdgeTest">
+  <parameter name="browser" value="edge" />
+    <classes>
+      
+       <class name="testNG_basics.BaseClass"/>
+        <class name="testNG_basics.TestcaseWrittenClass"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

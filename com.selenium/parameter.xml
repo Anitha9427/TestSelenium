@@ -1,0 +1,12 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="number1" value="10"/>
+  <parameter name="number2" value="20"/>
+    <classes>
+      
+      <class name="testNG_basics.Prameterisation"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

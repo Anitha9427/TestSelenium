@@ -1,0 +1,15 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+    <class name="testNG_basics.Assignment_1"/>
+      <class name="testNG_basics.SecondProgramme"/>
+      <class name="testNG_basics.Assignment2_Assertions"/>
+      <class name="testNG_basics.DropDown_TestNG"/>
+      <class name="testNG_basics.FirstProgramme"/>
+      <class name="testNG_basics.Annotations_hierarchy"/>
+      <class name="testNG_basics.AlertHandling_TestNG"/>
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

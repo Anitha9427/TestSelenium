@@ -1,0 +1,20 @@
+
+<suite name="Crossbrowser test suit" parallel="tests" thread-count="2">
+  <test name="ChromeTest">
+  <parameter name="browser" value="chrome" />
+    <classes>
+      
+      <class name="testNG_basics.CrosBrowserExample"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="EdgeTest">
+  <parameter name="browser" value="edge" />
+    <classes>
+      
+      <class name="testNG_basics.CrosBrowserExample"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
